@@ -21,7 +21,7 @@ public class Bullet : MonoBehaviour
         }
         Vector3 dir = m_target.position - transform.position;
         float distanceFrame = m_speed * Time.deltaTime;
-
+        
 
         if (dir.magnitude <= distanceFrame)
         {
